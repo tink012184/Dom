@@ -3,7 +3,7 @@ const slides = [
   "images\steampunk_fairy.jpg",
   "images\tink.PNG",
   "images\dumpster.jpg",
-  "images\unicorn.JPG"]; // Replace with your image paths
+  "images\babyunicorn.JPG"]; // Replace with your image paths
 const slideImage = document.getElementById('slide');
 
 function showSlides() {

@@ -28,7 +28,6 @@ img {vertical-align: middle; width: 100%;}
   to {opacity: 1}
 }
 
-
-.centered {
-  margin: 0 auto;
+header {
+  text-align: center;
 }
