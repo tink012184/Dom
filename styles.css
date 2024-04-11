@@ -4,24 +4,12 @@
   padding: 0;
 }
 
-.transparent-header {
-  background-image: url('images\headerBackground.JPG'); /* Add your background image path */
-  background-size: cover;
-  background-position: center;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-.mySlides {
-  display: none;
-}
 
 .prev, .next {
   cursor: pointer;
@@ -57,3 +45,16 @@
   text-align: center;
 }
 
+
+header {
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.mySlides {
+  display: none;
+}
