@@ -5,7 +5,7 @@
 
 * {box-sizing: border-box;}
 body {
-  background-image: url("");
+  background-color: aqua;
   color: #003049;
   font-family: Arial, sans-serif; 
   margin: 0;
@@ -40,7 +40,7 @@ img {vertical-align: middle; width: 100%;}
   to {opacity: 1}
 }
 
-header::before {
+header {
   text-align: center;
   background-image: url("images\headerBackground.JPG");
   opacity: 0.3;
