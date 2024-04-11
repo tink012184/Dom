@@ -50,11 +50,18 @@ header {
   background-size: cover;
   background-size: cover;
   background-position: center;
-  color: white;
+  color: black;
   text-align: center;
   padding: 20px;
 }
 
 .mySlides {
   display: none;
+}
+
+img {
+  float: left;
+  width:  100px;
+  height: 100px;
+  object-fit: cover;
 }
