@@ -10,6 +10,9 @@
   margin: auto;
 }
 
+body {
+  background-image: url("images\background.jpg");
+}
 
 .prev, .next {
   cursor: pointer;
