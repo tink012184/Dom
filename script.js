@@ -1,5 +1,9 @@
 let slideIndex = 0;
-const slides = ["steampunk_fairy.jpg", "tink.PNG", "dumpster.jpg", "unicorn.JPG"]; // Replace with your image paths
+const slides = [
+  "images\steampunk_fairy.jpg",
+  "images\tink.PNG",
+  "images\dumpster.jpg",
+  "images\unicorn.JPG"]; // Replace with your image paths
 const slideImage = document.getElementById('slide');
 
 function showSlides() {
