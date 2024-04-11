@@ -1,6 +1,6 @@
 var slideIndex = 0;
-var slides = ["img1.jpg", "img2.jpg", "img3.jpg"]; // Add your images to this array
-var captions = ["Caption One", "Caption Two", "Caption Three"]; // Add your captions to this array
+var slides = ["steampunk_fairy.jpg", "dumpster.JPG", "tink.PNG", "unicorn.JPG"]; // Add your images to this array
+var captions = ["Steampunk Fairy", "Dumpster", "Tinkrebell", "Unicorn"]; // Add your captions to this array
 
 function showSlides() {
   var i;
