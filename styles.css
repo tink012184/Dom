@@ -36,8 +36,7 @@ ul {
   height: 700px;
   color: aliceblue;
   font-family: 'Annie Use Your Telescope';
-  font-size: 20px;
-  text-shadow: black;
+  font-size: 30px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
@@ -46,7 +45,8 @@ ul {
   position: fixed;
   top: 450px;
   font-family: 'Annie Use Your Telescope';
-  width: 50%
+  width: 50%;
+  font-size: 25px;
 }
 
 form {
