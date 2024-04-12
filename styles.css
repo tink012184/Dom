@@ -8,18 +8,12 @@ body {
 #header {
   background: url('./images/headerBackground.jpeg');
   background-repeat: no-repeat;
-  background-size: cover;
-  color: aliceblue;
-  outline-color: black;
-  outline-width: 2px;
-  font-weight: bold;
-  font-family: 'Amita';
   background-size: auto;
 }
 
 
 #slideshow {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -36,4 +30,10 @@ ul {
   display: inline-block;
 } */
 
-
+header {
+  color: aliceblue;
+  outline-color: black;
+  outline-width: 4px;
+  font-weight: bold;
+  font-family: 'Amita';
+}
