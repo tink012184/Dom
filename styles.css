@@ -6,7 +6,7 @@ body {
 
 #header::after {
   content: "";
-  background-image: url('./images/headerBackground.JPG');
+  background: url('./images/headerBackground.JPG');
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1500px;
