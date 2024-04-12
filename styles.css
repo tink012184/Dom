@@ -31,6 +31,7 @@ ul {
 } */
 
 header {
+  height: 500px;
   color: aliceblue;
   outline-color: black;
   outline-width: 4px;
