@@ -4,7 +4,7 @@ body {
   text-align: center;
 }
 
-#header::after {
+header::after {
   content: "";
   background: url('./images/headerBackground.JPG');
   opacity: 0.3; 
@@ -44,5 +44,5 @@ ul {
 } */
 
 .header {
-  font-family: 'Almendra Display';
+  font-family: 'Amita';
 }
