@@ -9,7 +9,8 @@ body {
   background: url('./images/headerBackground.jpeg');
   background-repeat: no-repeat;
   background-size: 700px;
-  background-position-x: center;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 
