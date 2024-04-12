@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Your page description here">
@@ -14,22 +14,19 @@
 
 <body>
     <div id="header">
-        <h1>Nerds That Drink</h1>
-        <p>A stop for your entertainment needs</p>
-        <p>Contact Dominick at 719-123-1234</p>
-        <nav>
-            <ul>
-                <li><a href="index.htm">Home</a></li>
-                <li><a href="contact.htm">Contact</a></li>
-            </ul>
-        </nav>
+        <div id="header-placeholder"></div>
     </div>
 
     <div id="slideshow">
-        <!-- Slideshow content goes here -->
+        <img id="slideImg" src="" alt="Slideshow Image">
     </div>
 
     <script src="script.js"></script>
-
+    <script>
+    // Load the header content into the placeholder
+    fetch('header.htm')
+    .then(response => response.text())
+    .then(text => document.getElementById('header-placeholder').innerHTML = text);
+    </script>
 </body>
 </html>
