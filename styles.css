@@ -16,7 +16,7 @@ body {
 
 #slideshow {
   position: fixed;
-  top: 700px;
+  top: 600px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -40,4 +40,11 @@ ul {
   text-shadow: black;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
+}
+
+#contactForm {
+  position: fixed;
+  top: 600px;
+  left: 50%;
+  text-align: left;
 }
