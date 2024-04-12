@@ -5,18 +5,12 @@ body {
 }
 
 #header {
-  background: url('./images/headerBackground.JPG');
-  opacity: 0.3; 
+  background: url('./images/headerBackground.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   max-width: fit-content;
 }
 
-#content {
-  position: relative;
-  z-index: 1;
-  color: aliceblue;
-}
 
 #slideshow {
   position: absolute;
