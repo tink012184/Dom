@@ -1,6 +1,6 @@
 body {
   background-image: url('./images/background.jpg');
-  background-repeat: repeat-x;
+  background-repeat: repeat space;
   background-size: cover;
   text-align: center;
 }
@@ -9,7 +9,7 @@ body {
   background: url('./images/headerBackground.jpeg');
   background-repeat: no-repeat;
   background-size: 700px;
-  background-position: center;
+  background-position: top;
   background-attachment: fixed;
 }
 
@@ -35,8 +35,9 @@ ul {
 .header {
   height: 700px;
   color: aliceblue;
-  outline-color: black;
-  outline-width: 4px;
-  font-weight: bold;
   font-family: 'Amita';
+  font-size: 20px;
+  text-shadow: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
