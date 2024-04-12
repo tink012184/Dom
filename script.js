@@ -1,4 +1,5 @@
 var images = [
+    '',
     './images/babyunicorn.JPG',
     './images/dumpster.jpg',
     './images/steampunk_fairy.jpg',
@@ -15,8 +16,8 @@ window.onload = function() {
     var img = document.createElement('img');
     img.id = 'slideImg';
     img.src = images[index];
-    img.style.width = '100%';
-    img.style.height = 'auto';
+/*     img.style.width = '100%';
+    img.style.height = 'auto'; */
 
     // Append the img element to the slideshow div
     slideshow.appendChild(img);
