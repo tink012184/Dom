@@ -7,7 +7,7 @@ body {
 
 #header {
   background-image: url('./images/headerBackground.JPG');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   text-align: center;
 }
@@ -25,4 +25,10 @@ header {
 
 ul {
   list-style-type: none;
+}
+
+img {
+  width: 300px;  /* You can set the width */
+  height: 200px; /* You can set the height */
+  object-fit: cover; /* This will make sure your images cover the area without distortion */
 }
