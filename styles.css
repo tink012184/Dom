@@ -45,7 +45,6 @@ ul {
 #contactForm {
   position: fixed;
   top: 450px;
-  left: 20%;
   font-family: 'Amita';
   width: 50%
 }
@@ -53,4 +52,5 @@ ul {
 form {
   background-color: cornflowerblue;
   padding: 15px;
+  left: 25%;
 }
