@@ -30,7 +30,7 @@ ul {
   display: inline-block;
 } */
 
-header {
+.header {
   height: 500px;
   color: aliceblue;
   outline-color: black;
