@@ -16,6 +16,7 @@ body {
   z-index: -1;   
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: fit-content;
 }
 
 #content {
