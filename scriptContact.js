@@ -26,6 +26,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
 
 function sendEmail() {
+    
     const recipientEmail = 'tink012184@icloud.com'; // Replace with the actual recipient's email
     const senderEmail = 'tink012184@hotmail.com';//document.getElementById("email").value; // Replace with the sender's email
     const subject = 'KJ/Trivia Form Submitted';
@@ -35,6 +36,9 @@ function sendEmail() {
     Message: ${message}`;
 
     const email = {
+        Host: 'smtp.live.com',
+        Username: 'tink012184@hotmail.com',
+        Password: 'IamaPrinc355',
         to: recipientEmail,
         from: senderEmail,
         subject: subject,
