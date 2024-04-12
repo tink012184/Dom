@@ -39,9 +39,9 @@ ul {
   text-align: center; /* This centers the text */
 }
 
-li {
+/* li {
   display: inline-block;
-}
+} */
 
 .header {
   font-family: fantasy;
