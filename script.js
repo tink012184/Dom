@@ -1,4 +1,9 @@
-var images = ['images\babyunicorn.JPG', 'images\dumpster.jpg', 'images\steampunk_fairy.jpg', 'images\tink.PNG']; // Add your images here
+var images = [
+    './images/babyunicorn.JPG',
+    './images/dumpster.jpg',
+    './images/steampunk_fairy.jpg',
+    './images/tink.PNG'
+]; // Add your images here
 var index = 0;
 
 window.onload = function() {

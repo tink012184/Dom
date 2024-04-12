@@ -1,11 +1,12 @@
 body {
-  background-image: url('images\background.jpg');
+  background-image: url('./images/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
 }
 
 #header {
-  background-image: url('images\headerBackground.JPG');
+  background-image: url('./images/headerBackground.JPG');
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
