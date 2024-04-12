@@ -44,7 +44,11 @@ ul {
 
 #contactForm {
   position: fixed;
-  top: 600px;
-  left: 50%;
-  text-align: left;
+  top: 450px;
+  left: 20%;
+  font-family: 'Amita';
+}
+
+form {
+  background-color: blueviolet;
 }
