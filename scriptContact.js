@@ -36,9 +36,6 @@ function sendEmail() {
     Message: ${message}`;
 
     const email = {
-        Host: 'smtp.live.com',
-        Username: 'tink012184@hotmail.com',
-        Password: 'IamaPrinc355',
         to: recipientEmail,
         from: senderEmail,
         subject: subject,
