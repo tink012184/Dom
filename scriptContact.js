@@ -26,11 +26,20 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
 
 function sendEmail() {
+    const recipientEmail = 'tink012184@hotmail.com'; // Replace with the actual recipient's email
+    const senderEmail = document.getElementById("email").value; // Replace with the sender's email
+    const subject = 'Form Submitted';
     const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
+    const message = document.getElementById('message').value; // Get the user's input from the form
 
-    const mailtoLink = `mailto:tink012184@hotmail.com?subject=Website Submission
-    &body=Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
-    window.open(mailtoLink);
+    const email = {
+        to: recipientEmail,
+        from: senderEmail,
+        subject: subject,
+        body: name <br> message, // Use the user's input as the email content
+    };
+
+    Email.send(email)
+        .then(() => alert('Email sent successfully!'))
+        .catch((error) => console.error('Error sending email:', error));
 }
