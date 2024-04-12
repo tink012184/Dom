@@ -47,8 +47,10 @@ ul {
   top: 450px;
   left: 20%;
   font-family: 'Amita';
+  width: 50%
 }
 
 form {
-  background-color: blueviolet;
+  background-color: cornflowerblue;
+  padding: 15px;
 }
