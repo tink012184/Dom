@@ -32,8 +32,15 @@ body {
   transform: translate(-50%, -50%);
 }
 
-ul {
-  list-style-type: none;
+.centered-list ul {
+  list-style-type: none; /* This removes the bullet points */
+  padding: 0;
+  margin: 0 auto; /* This centers the list */
+  text-align: center; /* This centers the text */
+}
+
+.centered-list li {
+  display: inline-block;
 }
 
 .header {
