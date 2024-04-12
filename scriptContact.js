@@ -31,12 +31,14 @@ function sendEmail() {
     const subject = 'KJ/Trivia Form Submitted';
     const name = document.getElementById('name').value;
     const message = document.getElementById('message').value; // Get the user's input from the form
+    const both = `Name: ${name}
+    Message: ${message}`
 
     const email = {
         to: recipientEmail,
         from: senderEmail,
         subject: subject,
-        body: message, // Use the user's input as the email content
+        body: both, // Use the user's input as the email content
     };
 
     Email.send(email)
