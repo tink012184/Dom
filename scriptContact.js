@@ -26,9 +26,9 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
 
 function sendEmail() {
-    const recipientEmail = 'tink012184@hotmail.com'; // Replace with the actual recipient's email
+    const recipientEmail = 'tink012184@icloud.com'; // Replace with the actual recipient's email
     const senderEmail = document.getElementById("email").value; // Replace with the sender's email
-    const subject = 'Form Submitted';
+    const subject = 'KJ/Trivia Form Submitted';
     const name = document.getElementById('name').value;
     const message = document.getElementById('message').value; // Get the user's input from the form
 
