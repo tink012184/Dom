@@ -8,13 +8,13 @@ body {
 #header {
   background: url('./images/headerBackground.jpeg');
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 500px;
 }
 
 
 #slideshow {
   position: fixed;
-  top: 50%;
+  top: 700px;
   left: 50%;
   /* transform: translate(-50%, -50%); */
 }
