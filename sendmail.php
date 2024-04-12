@@ -1,6 +1,4 @@
 <?php
-
-<?php
 // Server-side validation can also be added here for extra security
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = strip_tags(trim($_POST["name"]));
