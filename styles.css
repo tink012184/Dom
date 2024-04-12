@@ -5,11 +5,8 @@ body {
 }
 
 #header {
-  background-image: url('./images/headerBackground.JPG');
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  opacity: 0.3;
+  color: aliceblue;
+  opacity: 1.00;
 }
 
 #slideshow {
@@ -20,7 +17,11 @@ body {
 }
 
 .header {
-  color: aliceblue;
+  background-image: url('./images/headerBackground.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  opacity: 0.3;
 }
 
 ul {
