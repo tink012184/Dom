@@ -15,13 +15,12 @@ h1, h2, h3, p {
   background-repeat: no-repeat;
   background-size: 700px;
   background-position: top;
-  background-attachment: fixed;
 }
 
 
 #slideshow {
-  position: static;
-  top: 600px;
+  position: relative;
+  top: -700px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
