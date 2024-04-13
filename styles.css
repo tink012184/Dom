@@ -53,3 +53,8 @@ form {
   background-color: cornflowerblue;
   left: 25%;
 }
+
+button {
+  border-radius: 15px;
+  font-family: 'Annie Use Your Telescope';
+}
