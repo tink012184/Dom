@@ -5,6 +5,11 @@ body {
   text-align: center;
 }
 
+h1, h2, h3, p {
+  font-family: 'Annie Use Your Telescope';
+  color: black;
+}
+
 #header {
   background: url('./images/headerBackground.jpeg');
   background-repeat: no-repeat;
