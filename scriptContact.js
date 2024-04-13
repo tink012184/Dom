@@ -1,4 +1,4 @@
-document.getElementById('contactForm').addEventListener('submit', function(event) {
+/* document.getElementById('contactForm').addEventListener('submit', function(event) {
     var isValid = true;
     var name = document.getElementById('name').value;
     var email = document.getElementById('email').value;
@@ -46,3 +46,23 @@ function sendEmail() {
         .then(() => alert('Email sent successfully!'))
         .catch((error) => console.error('Error sending email:', error));
 }
+ */
+
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    var formData = new FormData(this);
+
+    fetch('send_email.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('response').innerText = data;
+    })
+    .catch(error => {
+        document.getElementById('response').innerText = 'Error: ' + error;
+    });
+});
