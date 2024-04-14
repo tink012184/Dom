@@ -13,14 +13,14 @@ h1, h2, h3, p {
 #header {
   background: url('./images/headerBackground.jpeg');
   background-repeat: no-repeat;
-  background-size: 700px;
+  background-size: 80%;
   background-position: top;
 }
 
 
 #slideshow {
-  position: relative;
-  top: -700px;
+  position: absolute;
+  top: auto;
   left: 50%;
   transform: translate(-50%, -50%);
 }
