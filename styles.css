@@ -40,11 +40,10 @@ h1, h2, h3, p {
   width: 100%;
   height: auto;
 }
-
-.img {
+ img {
   width: 100%;
   height: auto;
-}
+ }
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
