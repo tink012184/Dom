@@ -24,10 +24,20 @@ h1, h2, h3, p {
 }
 
 #slideshow {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+}
+
+.slideshow img {
+  width: 100%;
+  height: auto;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .slideshow-container {
+    width: 100%;
+  }
 }
 
 ul {
