@@ -1,5 +1,5 @@
 var images = [
-    './images/babyunicorn.JPG',
+    './images/babyunicorn.jpg',
     './images/dumpster.jpg',
     './images/steampunk_fairy.jpg',
     './images/tink.PNG'
