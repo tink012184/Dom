@@ -4,8 +4,17 @@ html, body {
 }
 
 body {
-  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  background: linear-gradient(to right,
+    rgba(255, 0, 0, 0.5), /* Red */
+    rgba(255, 165, 0, 0.5), /* Orange */
+    rgba(255, 255, 0, 0.5), /* Yellow */
+    rgba(0, 128, 0, 0.5), /* Green */
+    rgba(0, 0, 255, 0.5), /* Blue */
+    rgba(75, 0, 130, 0.5), /* Indigo */
+    rgba(238, 130, 238, 0.5) /* Violet */
+  );
   background-size: cover;
+  text-align: center;
 }
 
 h1, h2, h3, p {
@@ -21,7 +30,7 @@ h1, h2, h3, p {
 }
 
 .slideshow-container {
-  position: relative;
+  position: static;
   width: 80%; /* Adjust as needed */
   height: auto;
   margin: auto; /* Center the slideshow */
@@ -32,7 +41,7 @@ h1, h2, h3, p {
   height: auto;
 }
 
-.slideshow img {
+.img {
   width: 100%;
   height: auto;
 }
