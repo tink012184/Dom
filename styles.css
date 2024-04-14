@@ -1,7 +1,6 @@
 body {
   background-image: url('./images/background.jpg');
-  background-repeat: repeat space;
-  background-size: cover;
+  background-size: contain;
   text-align: center;
 }
 
@@ -17,10 +16,16 @@ h1, h2, h3, p {
   background-position: top;
 }
 
+.slideshow-container {
+  position: relative;
+  width: 80%; /* Adjust as needed */
+  height: auto;
+  margin: auto; /* Center the slideshow */
+}
 
 #slideshow {
   position: absolute;
-  top: auto;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -37,20 +42,18 @@ ul {
 } */
 
 .header {
-  height: 700px;
-  color: aliceblue;
+  /*height: 30%;*/
+  /*color: aliceblue;*/
   font-family: 'Annie Use Your Telescope';
-  font-size: 30px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
 
 #contactForm {
-  position: fixed;
-  top: 450px;
+  position: absolute;
+  top: 30%;
   font-family: 'Annie Use Your Telescope';
   width: 50%;
-  font-size: 25px;
 }
 
 form {
