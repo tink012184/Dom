@@ -22,7 +22,7 @@ h1, h2, h3, p {
 #header {
   background: url('./images/headerBackground.jpeg');
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: contain;
   background-position: top;
 }
 
